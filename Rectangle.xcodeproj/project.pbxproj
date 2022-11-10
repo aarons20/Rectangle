@@ -750,7 +750,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = "Ryan Hanson";
 				TargetAttributes = {
 					9821403B22B3EBD900ABFB3F = {
@@ -1175,7 +1175,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.RectangleLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1201,7 +1201,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.RectangleLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1407,6 +1407,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.ryanhanson.RectangleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1432,6 +1433,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.ryanhanson.RectangleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
